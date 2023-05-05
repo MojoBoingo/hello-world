@@ -35,3 +35,9 @@ a {
     text-decoration-thickness: 7;
     /* thickness as a % of the font size */
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+        scroll-behavior: smooth;
+  }
+}
