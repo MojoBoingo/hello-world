@@ -7,9 +7,6 @@
 html {
   font-size: 62.5%;
   /*changes root font size so that 1rem=10px.Just so I can do the math easier in my head, since I'm told using rem units is best practice*/
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
-  /*The two lines above are so web browser algorithms don't resize my text on mobile. First line for iOS, second for "everyone" else*/
 }
 
 body {
